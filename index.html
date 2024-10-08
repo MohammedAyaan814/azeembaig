@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Azeem Baig</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav >
+            <h2 class="logo">Azeem Baig</h2>
+            <ul class="sidebar">
+                <li class="x" onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <!-- <li><a href="#certifications">Certifications</a></li> -->
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul>
+                <li class="hideOnMobile"><a href="#about">About Me</a></li>
+                <li class="hideOnMobile"><a href="#services">Services</a></li>
+                <!-- <li><a href="#certifications">Certifications</a></li> -->
+                <li class="hideOnMobile"><a href="#experience">Experience</a></li>
+                <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+                <li class="menuButton" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="img-div"><img class="pic" src="azeem3.jpg"></div>
+                <div class="hero-content-right">
+                    <p>Hello, I'm</p>
+                    <h1>Azeem Baig</h1>
+                    <p class="job-tit">QHSE Safety Trainer/</p> 
+                    <p class="job">Business Developement Manager</p>
+                    <div class="btn-div">
+                        <a href="Azeem_Baig.pdf" download="" class="cv-btn">Download CV</a>
+                        <a href="#contact" class="in-btn">Contact Info</a>  
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section>
+    </header>
+
+    <!-- About Me -->
+    <section id="about" class="about-section">
+        <p>Get To Know More</p>
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img class="pic2" src="azeem2.png" alt="Profile Picture">
+            <div>
+                <div class="experience">
+                    <div class="year">
+                        <img class="exp" src="experience.png" alt="">
+                        <h3 class="ep">Experience</h3>
+                        <p>7+ years</p>
+                        <p>QHSE Training</p>
+                    </div>
+                    <div class="edu">
+                        <img class="edu-img" src="education.png" alt="">
+                        <h3 class="ep">Education</h3>
+                        <p>MBA HR</p>
+                        <p>Online Distance Edu.</p>
+                    </div>
+                </div>
+
+                <div class="descripsition">
+                    <div class="descripsition-dev">
+                        <p>I am a certified QHSE (Quality, Health, Safety, and Environment) trainer with a <strong>NEBOSH</strong> certification, specializing in delivering comprehensive training programs for rig and offshore operations. With extensive experience in the industry, I am dedicated to promoting safety and environmental awareness, ensuring that professionals are equipped with the knowledge and skills necessary to maintain high standards of safety and compliance. Passionate about fostering a culture of safety, I employ engaging training methods that enhance learning outcomes and empower individuals to contribute positively to their work environments.</p>
+                    </div>
+                    
+                </div>
+                
+
+                </p>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services-section">
+        <h2 class="exp-main">Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <h3 class="ser">Safety Training Programs</h3>
+                <p>Comprehensive instruction on safety protocols, hazard identification, and emergency response to ensure a safe and compliant workplace.</p>
+            </div>
+            <div class="service-card">
+                <h3 class="ser">Offshore and Rig Safety Training</h3>
+                <p>Safety protocols and emergency procedures, and hazard management specific to offshore and rig environments to ensure compliance and worker safety.</p>
+            </div>
+            <div class="service-card">
+                <h3 class="ser">Client Relationship Management</h3>
+                <p>Building and maintaining strong client relationships, ensuring satisfaction, and identifying opportunities for business growth and long-term partnerships.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <!-- <section id="certifications" class="certifications-section">
+        <h2>Certifications</h2>
+        <div class="certifications-grid">
+            <div class="cert-card">NEBOSH</div>
+            <div class="cert-card">IOSH</div>
+            <div class="cert-card">ISO 45001</div>
+            <div class="cert-card">ISO 14001</div>
+        </div>
+    </section> -->
+
+    <!-- Experience -->
+    <section id="experience" class="experience-section">
+        <h2 class="exp-main">Experience</h2>
+        <ul class="timeline">
+            <li>
+                <h3>Business Developement Manager - Future Institute ATC (2024 - Present)</h3>
+                <p>Managed Business for the company and done safety training on offshore and land rigs</p>
+            </li>
+            <li>
+                <h3>Business Developement - Agora Training Centre (2021 - 2024)</h3>
+                <p>Developed safety manuals and conducted audits for various industries.</p>
+            </li>
+            <li>
+                <h3>Safety Trainer - Al Kebar (2017 - 2021)</h3>
+                <p>Developed safety manuals and conducted audits for various industries.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="ffd930a5-7716-413e-8429-df6bed62efb5">
+            <label for="name" class="na">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email" class="em">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message" class="me">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button class="sub-btn" type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
